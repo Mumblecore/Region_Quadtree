@@ -1,22 +1,24 @@
-# Region_Quadtree
-<br />
-Por: Alan Monroy<br />
-<br />
+Region_Quadtree
+
+Por: Alan Monroy
+
   0     1     2     3     4
 0 +-----+-----+-----+-----+
-  |     |     |     |     |<br />
-  |     |     |     |     |<br />
+  |     |     |     |     |
+  |     |     |     |     |
 1 +-----+-----+-----+-----+
-  |     | x   |     |     |<br />
-  |     |     |     |     |<br />
+  |     | x   |     |     |
+  |     |     |     |     |
 2 +-----+-----+-----+-----+
-  |  x  |     |     | x   |<br />
-  |     |     |     |   x |<br />
+  |  x  |     |     | x   |
+  |     |     |     |   x |
 3 +-----+-----+-----+-----+
   |     |     |     |     |
   |     |   x |     |     |
-4 +-----+-----+-----+-----+<br />
-<br />
-El numero de nodos se imprime usando el Z-order<br />
-<br />
-padre(hijo1 hijo2 hijo3 hijo4)<br />
+4 +-----+-----+-----+-----+
+
+El numero de nodos se imprime usando el Z-order:
+
+padre(hijo1 hijo2 hijo3 hijo4)
+
+5(1(0 0 0 1) 0(0 0 0 0) 2(1 0 0 1) 2(0 2 0 0))
