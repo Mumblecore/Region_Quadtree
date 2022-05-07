@@ -31,8 +31,11 @@ struct quadtree{
 		if (h < H-1){
 			cout << "(";
 			hijos[0]->print();
+			cout << " ";
 			hijos[1]->print();
+			cout << " ";
 			hijos[2]->print();
+			cout << " ";
 			hijos[3]->print();
 			cout << ")";
 		}
